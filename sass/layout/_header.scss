@@ -12,7 +12,7 @@
   position: relative;
 
   &__text-box {
-    
+    @include absoluteCenter;
   }
 
 }
