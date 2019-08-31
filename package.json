@@ -1,0 +1,14 @@
+{
+  "name": "cheesecake-css-sass",
+  "version": "1.0.0",
+  "description": "Web page about cheesecake to practice css and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Redmond"
+  ],
+  "author": "",
+  "license": "ISC"
+}
