@@ -1,2 +1,5 @@
 .header {
-  background-color: red; }
+  height: 95vh;
+  background-image: url(../img/cheesecake-1.jpg);
+  background-size: cover;
+  background-position: 0px -100px; }
