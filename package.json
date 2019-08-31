@@ -4,7 +4,7 @@
   "description": "Web page about cheesecake to practice css and sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss"
   },
   "keywords": [
     "Redmond"
