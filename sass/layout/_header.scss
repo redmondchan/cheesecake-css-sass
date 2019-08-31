@@ -6,6 +6,11 @@
        rgba($color-primary-dark, .8)),
        url(../img/cheesecake-1.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+
+  &__text-box {
+    
+  }
 
 }
