@@ -13,6 +13,7 @@
 
   &__text-box {
     @include absoluteCenter;
+    text-align: center;
   }
 
 }
