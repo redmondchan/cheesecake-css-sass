@@ -7,7 +7,9 @@
        url(../img/cheesecake-1.jpg);
   background-size: cover;
   background-position: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+  position: relative;
 
   &__text-box {
     
