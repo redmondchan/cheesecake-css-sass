@@ -10,5 +10,8 @@
     "Redmond"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
