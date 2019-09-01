@@ -25,6 +25,14 @@
       &-1 {
         background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
       }
+
+      &-2 {
+        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+      }
+
+      &-3 {
+        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+      }
     }
   }
 
@@ -42,11 +50,11 @@
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/katsu-1.jpg);
+      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/katsu-1.jpg);
     }
 
     &--3{
-      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/bumi-1.jpg);
+      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/bumi-1.jpg);
     }
   }
 
@@ -72,11 +80,11 @@
       }
 
       &--2 {
-        background-image: linear-gradient(to right bottom, rgba($color-primary-light, .85), rgba($color-primary-dark, .85));
+        background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
       }
 
       &--3 {
-        background-image: linear-gradient(to right bottom, rgba($color-primary-light, .85), rgba($color-primary-dark, .85));
+        background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, .85), rgba($color-tertiary-dark, .85));
       }
     }
 
