@@ -10,9 +10,10 @@
   visibility: hidden;
   transition: all .3s;
 
-  &_content {
-    @include absoluteCenter;
+  &__content {
 
+    @include absoluteCenter;
+    width: 75%;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black, .2);
     border-radius: 3px;
@@ -63,7 +64,7 @@
     visibility: visible;
   }
 
-  &_target &__content {
+  &:target &__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
