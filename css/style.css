@@ -334,6 +334,27 @@ body {
       transform: translateX(1rem) scale(1.4); }
     .review__img--2 {
       transform: translateX(-2rem) scale(1.4) rotate(90deg); }
+  .review__text {
+    transform: skewX(12deg); }
+  .review__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, 20%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+    backface-visibility: hidden; }
+  .review:hover .review__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); }
+  .review:hover .review__img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%); }
 
 .weather-box {
   background-color: rgba(255, 255, 255, 0.8);
