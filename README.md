@@ -1,6 +1,6 @@
 # cheesecake-css-sass
 
-I'm taking a course on Udemy, Advanced CSS and Sass with Jonas Schmedtmann. I've been coding along while watching his videos. He shows us how to make [Natours](google.com). I'm making a similar version to practice and better understand CSS and Sass.
+I'm taking a course on Udemy, Advanced CSS and Sass with Jonas Schmedtmann. I've been coding along while watching his videos. He shows us how to make [Natours](http://google.com). I'm making a similar version to practice and better understand CSS and Sass.
 
 I'm not finished with the course so there will be more updates!
 
