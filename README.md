@@ -28,4 +28,4 @@ Customized input fields. Bottom border will turn green when it's filled out corr
 ![card-popup-gif](gif-6.gif)
 
 
-Those are just some features that can be easily shown with gif. I learned a lot more than just these! There are more styling and css that would be best explain through a video, which I may consider doing. 
+Those are just some features that can be easily shown with a gif. I learned a lot more than just these! There are more styling and css that would be hard showing through a gif so check it out!
