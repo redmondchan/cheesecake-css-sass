@@ -863,6 +863,19 @@ body {
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  @media (max-width: 75em) {
+    .schedule {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/cheesecake-group.jpg);
+      background-size: cover; } }
+  @media (max-width: 56.25em) {
+    .schedule {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/cheesecake-group.jpg); } }
   .schedule__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 75em) {
+      .schedule__form {
+        width: 65%; } }
+    @media (max-width: 75em) {
+      .schedule__form {
+        width: 100%; } }
