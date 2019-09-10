@@ -594,6 +594,10 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
   position: relative; }
+  @media (max-width: 37.5em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh); } }
   .header__text-box {
     position: absolute;
     top: 50%;
