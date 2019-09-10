@@ -9,22 +9,48 @@
     transition: all .2s;
     outline-offset: 2rem;
 
+    @include respond(tab-port){
+      float: left;
+      position: relative;
+      box-shadow: 0 1.5rem 3rem rgba($color-black, .2);
+    }
+
     &--1 {
       left: 1.8rem;
       top: -4rem;
       width: 38%;
+
+      @include respond(tab-port) {
+        top: 0;
+        left: 27rem;
+        width:30%;
+      }
     }
 
     &--2 {
       right: 6rem;
       top: 13rem;
       width: 38%;
+
+      @include respond(tab-port) {
+        top: 0;
+        right: 25rem;
+        width: 30%;
+      }
     }
 
     &--3 {
       left: 20%;
       top: 5rem;
       width: 60%;
+
+      @include respond(tab-port) {
+        top: 4.5rem;
+        left: 0;
+        width: 30%;
+        transform: scale(1.5);
+        z-index: 100;
+      }
     }
 
     &:hover {
@@ -37,7 +63,7 @@
 
   &:hover &__photo:not(:hover) {
     transform: scale(.95);
-    
+
   }
 
 }
