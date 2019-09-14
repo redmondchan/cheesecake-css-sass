@@ -27,6 +27,12 @@
   &__left {
     width: 33.333333%;
     display: table-cell;
+
+    @include respond(tab-port) {
+      width: 40%;
+      vertical-align: middle;
+      padding: 2rem 0rem 2rem 2rem;
+    }
   }
 
   &__right {
@@ -34,6 +40,12 @@
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+
+    @include respond(tab-port) {
+      width: 60%;
+      vertical-align: middle;
+      padding: 2rem;;
+    }
   }
 
   &__img {
