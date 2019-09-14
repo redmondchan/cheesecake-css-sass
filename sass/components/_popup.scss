@@ -10,6 +10,11 @@
   visibility: hidden;
   transition: all .3s;
 
+  @include respond(phone) {
+    //accomdate for iphone 5 - fixes the background black popup not covering entire screen
+    height: 110vh;
+  }
+
   &__content {
 
     @include absoluteCenter;
