@@ -593,7 +593,10 @@ body {
       .popup__left {
         width: 40%;
         vertical-align: middle;
-        padding: 2rem 0rem 2rem 2rem; } }
+        padding: 2rem 0rem 0rem 2rem; } }
+    @media (max-width: 37.5em) {
+      .popup__left {
+        width: 50%; } }
   .popup__right {
     width: 66.666666%;
     display: table-cell;
@@ -603,7 +606,10 @@ body {
       .popup__right {
         width: 60%;
         vertical-align: middle;
-        padding: 2rem; } }
+        padding: 2rem 2rem 0rem 2rem; } }
+    @media (max-width: 37.5em) {
+      .popup__right {
+        width: 50%; } }
   .popup__img {
     display: block;
     width: 100%; }
