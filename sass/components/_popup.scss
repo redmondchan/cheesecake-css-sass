@@ -36,6 +36,7 @@
 
     @include respond(phone) {
       width: 50%;
+      padding-bottom: 0rem;
     }
   }
 
