@@ -589,6 +589,9 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all .5s .2s; }
+    @media (max-width: 75em) {
+      .popup__content {
+        width: 95%; } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -596,7 +599,7 @@ body {
       .popup__left {
         width: 40%;
         vertical-align: middle;
-        padding: 2rem 0rem 1rem 2rem; } }
+        padding: 2rem 0rem 2rem 2rem; } }
     @media (max-width: 37.5em) {
       .popup__left {
         width: 50%;
