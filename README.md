@@ -6,7 +6,9 @@ I follow BEM naming convention and the 7-1 architect/pattern.
 
 I'm not finished with the course so there will be more updates!
 
--I've added media queries. 
+# Updates
+
+-I've added media queries.
 
 # Some features
 
