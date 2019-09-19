@@ -2,7 +2,11 @@
 
 I'm taking a course on Udemy, Advanced CSS and Sass with Jonas Schmedtmann. I've been coding along while watching his videos. He shows us how to make [Natours](http://natours.netlify.com). I'm making a similar version to practice and better understand CSS and Sass.
 
+I follow BEM naming convention and the 7-1 architect/pattern.
+
 I'm not finished with the course so there will be more updates!
+
+-I've added media queries. 
 
 # Some features
 
