@@ -874,6 +874,9 @@ body {
   background-size: cover;
   transform: skewY(7deg);
   margin-top: -10rem; }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .section-weather {
+      background-image: linear-gradient(to right bottom, rgba(115, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/cheesecake-group-large.jpg); } }
   .section-weather > * {
     transform: skewY(-7deg); }
   @media (max-width: 56.25em) {
