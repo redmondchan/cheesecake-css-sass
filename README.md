@@ -8,7 +8,8 @@ I'm not finished with the course so there will be more updates!
 
 # Updates
 
--I've added media queries.
+-I've added media queries
+
 -Included resolution switching for responsive images
 
 # Some features
