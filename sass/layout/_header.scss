@@ -23,7 +23,7 @@
 
   @include respond(phone) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh);
   }
 
   &__text-box {

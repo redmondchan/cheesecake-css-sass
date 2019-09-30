@@ -725,7 +725,7 @@ body {
   @media (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh); } }
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh); } }
   .header__text-box {
     position: absolute;
     top: 50%;
