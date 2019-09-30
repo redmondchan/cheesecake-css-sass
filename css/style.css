@@ -932,7 +932,4 @@ body {
     padding: 6rem; }
     @media (max-width: 75em) {
       .schedule__form {
-        width: 65%; } }
-    @media (max-width: 75em) {
-      .schedule__form {
         width: 100%; } }
