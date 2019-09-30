@@ -31,6 +31,11 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
   }
 
+  @include respond(tab-land) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+  }
+
   &__text-box {
     @include absoluteCenter;
     text-align: center;

@@ -726,6 +726,10 @@ body {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh); } }
+  @media (max-width: 75em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh); } }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -865,6 +869,9 @@ body {
   padding: 25rem 0;
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
+    .section-about {
+      padding: 35rem 0 20rem 0; } }
+  @media (max-width: 75em) {
     .section-about {
       padding: 35rem 0 20rem 0; } }
 
