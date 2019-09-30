@@ -26,14 +26,15 @@
   //   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh);
   // }
 
-  @include respond(tab-port) {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
-  }
 
   @include respond(tab-land) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+  }
+  
+  @include respond(tab-port) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
   }
 
   &__text-box {
