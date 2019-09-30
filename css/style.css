@@ -722,10 +722,10 @@ body {
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
     .header {
       background-image: linear-gradient(to right bottom, rgba(115, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/cheesecake-1-large.jpg); } }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh); } }
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88vh); } }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -866,7 +866,7 @@ body {
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 20rem 0; } }
+      padding: 35rem 0 20rem 0; } }
 
 .section-weather {
   padding: 20rem 0;
