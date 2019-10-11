@@ -221,6 +221,9 @@ body {
     transform: translateY(0); }
 
 .card {
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
   position: relative;
   height: 52rem; }
   .card__side {
@@ -230,6 +233,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
