@@ -133,6 +133,9 @@
   }
 
   @include respond(tab-port){
+  // using media query instead for a second conditional but :hover is changed to double tap
+  // @media only screen and (max-width: 56.25em),
+  //        only screen and (hover: none) {
 
       position: relative;
       height: auto;
